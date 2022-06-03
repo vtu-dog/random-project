@@ -1,0 +1,8 @@
+# VSCode project files
+.vscode/
+
+# MongoDB files
+mongodb/
+
+# MacOS-specific
+**/.DS_Store
