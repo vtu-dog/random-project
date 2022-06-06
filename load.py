@@ -1,5 +1,3 @@
-# print all files in a folder
-
 import os
 import json
 import pymongo
