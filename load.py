@@ -7,6 +7,7 @@ from bson.objectid import ObjectId
 conn_str = "mongodb://root:secret@mongodb:27017/?authSource=admin&readPreference=primary&directConnection=true&ssl=false"
 client = pymongo.MongoClient(conn_str)
 client.drop_database("transactions")
+client.db.transactions.drop()
 
 for file in os.listdir("/files/"):
     print("filename:", file)
